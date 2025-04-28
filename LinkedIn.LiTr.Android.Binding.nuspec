@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<package>
+  <metadata>
+    <id>LinkedIn.LiTr.Android.Binding</id>
+    <version>1.5.7</version>
+    <title>LinkedIn.LiTr.Android.Binding</title>
+    <authors>Giuseppe Novielli, linkedin</authors>
+    <owners>Giuseppe Novielli</owners>
+   <license type="file">LICENSE</license>
+    <projectUrl>https://github.com/giuseppenovielli/LinkedIn.LiTr.Android.Binding</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Android Binding LinkedIn.LiTr library https://github.com/linkedin/LiTr</description>
+    <releaseNotes>Binding v1.5.7</releaseNotes>
+    <copyright>Copyright 2025 linkedin, Giuseppe Novielli</copyright>
+    <tags>android, maui.android, maui, linkedin.litr, litr</tags>
+    <summary>Android Binding of linkedin.LiTr library https://github.com/linkedin/LiTr</summary>
+    <dependencies>
+      <group targetFramework="net8.0-android34">
+          <dependency id="Xamarin.Kotlin.StdLib" version="1.7.20" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="LICENSE" />
+    <file src="src/LinkedIn.LiTr.Android.Binding/LinkedIn.LiTr.Android.Binding/bin/Release/net8.0-android/LinkedIn.LiTr.Android.Binding.dll" target="lib\net8.0-android34/LinkedIn.LiTr.Android.Binding.dll" />
+    <file src="src/LinkedIn.LiTr.Android.Binding/LinkedIn.LiTr.Android.Binding/bin/Release/net8.0-android/LinkedIn.LiTr.Android.Binding.pdb" target="lib\net8.0-android34/LinkedIn.LiTr.Android.Binding.dll" />
+	</files>
+</package>
