@@ -401,3 +401,5 @@ FodyWeavers.xsd
 
 *.jar
 *.aar
+
+*.DS_Store
