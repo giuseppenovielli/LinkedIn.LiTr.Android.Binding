@@ -6,15 +6,16 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
-  <ItemGroup>
-    <EmbeddedJar Include="Jars\litr-1.5.7.aar" />
-</ItemGroup>
+    <ItemGroup>
+      <TransformFile Include="Transforms\Metadata.xml" />
+    </ItemGroup>
 
-<ItemGroup>
-  <TransformFile Include="Transforms\Metadata.xml" />
-</ItemGroup>
+    <ItemGroup>
+      <PackageReference Include="Xamarin.Kotlin.StdLib" Version="1.7.20" />
+    </ItemGroup>
 
-<ItemGroup>
-  <PackageReference Include="Xamarin.Kotlin.StdLib" Version="1.7.20" />
-</ItemGroup>
+    <ItemGroup>
+      <AndroidLibrary Include="Jars/litr-1.5.7.aar"/>
+    </ItemGroup>
+
 </Project>
